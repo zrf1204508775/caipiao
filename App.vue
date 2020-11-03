@@ -60,8 +60,6 @@
 							//this.$api.msg(error.data.info)
 						}
 					})
-					
-					
 					that.login(dataInfo)
 					
 				}, fail:(res)=>{
@@ -70,8 +68,6 @@
 					console.log('获取token本地缓存失败')
 				}
 			})
-			
-			
 		},
 		
 		methods: {

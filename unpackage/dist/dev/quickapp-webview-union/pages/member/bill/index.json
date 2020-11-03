@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom",
+    "mescroll-body": "/components/mescroll-uni/mescroll-body",
+    "mescroll-mixin": "/components/mescroll-uni/mescroll-mixins",
+    "mescroll-empty": "/components/mescroll-uni/components/mescroll-empty"
+  }
+}

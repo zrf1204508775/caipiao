@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "u-grid": "/uview-ui/components/u-grid/u-grid",
+    "u-grid-item": "/uview-ui/components/u-grid-item/u-grid-item",
+    "cu-custom": "/colorui/components/cu-custom",
+    "mescroll-body": "/components/mescroll-uni/mescroll-body",
+    "mescroll-mixin": "/components/mescroll-uni/mescroll-mixins"
+  }
+}

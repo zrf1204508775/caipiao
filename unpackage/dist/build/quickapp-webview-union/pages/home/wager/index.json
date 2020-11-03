@@ -1,0 +1,13 @@
+{
+  "usingComponents": {
+    "u-count-down": "/uview-ui/components/u-count-down/u-count-down",
+    "u-section": "/uview-ui/components/u-section/u-section",
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "u-number-box": "/uview-ui/components/u-number-box/u-number-box",
+    "u-switch": "/uview-ui/components/u-switch/u-switch",
+    "u-popup": "/uview-ui/components/u-popup/u-popup",
+    "u-gap": "/uview-ui/components/u-gap/u-gap",
+    "u-modal": "/uview-ui/components/u-modal/u-modal",
+    "cu-custom": "/colorui/components/cu-custom"
+  }
+}

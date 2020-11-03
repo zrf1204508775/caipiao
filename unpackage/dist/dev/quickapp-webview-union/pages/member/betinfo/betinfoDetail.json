@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "u-line-progress": "/uview-ui/components/u-line-progress/u-line-progress",
+    "u-gap": "/uview-ui/components/u-gap/u-gap",
+    "u-section": "/uview-ui/components/u-section/u-section",
+    "u-line": "/uview-ui/components/u-line/u-line",
+    "u-popup": "/uview-ui/components/u-popup/u-popup",
+    "cu-custom": "/colorui/components/cu-custom"
+  }
+}

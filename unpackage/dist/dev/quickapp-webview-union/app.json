@@ -1,0 +1,83 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/home/wager/index",
+    "pages/home/policy/agreement",
+    "pages/home/policy/service_agreement",
+    "pages/partner/index",
+    "pages/partner/partner_detail",
+    "pages/prize/index",
+    "pages/prize/history",
+    "pages/member/index",
+    "pages/member/point_signin",
+    "pages/member/betinfo/index",
+    "pages/member/betinfo/betinfoDetail",
+    "pages/member/bill/index",
+    "pages/member/recharge/index",
+    "pages/member/recharge/wy",
+    "pages/member/tkefu/index",
+    "pages/member/set/index",
+    "pages/member/set/FQA",
+    "pages/member/set/privacy",
+    "pages/member/user_info/index",
+    "pages/member/bank/index",
+    "pages/member/bank/drawing",
+    "pages/member/setPw/index",
+    "pages/member/setPw/playPW",
+    "pages/member/setPw/modify_password",
+    "pages/member/public/register",
+    "pages/member/public/forgot",
+    "pages/member/public/login"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "长盈",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "color": "#b7b7b7",
+    "selectedColor": "#f97321",
+    "borderStyle": "black",
+    "backgroundColor": "#fafafa",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "iconPath": "static/tabbar1.png",
+        "selectedIconPath": "static/tabbar1_active.png",
+        "text": "购彩"
+      },
+      {
+        "pagePath": "pages/partner/index",
+        "iconPath": "static/tabbar2.png",
+        "selectedIconPath": "static/tabbar2_active.png",
+        "text": "合买"
+      },
+      {
+        "pagePath": "pages/prize/index",
+        "iconPath": "static/tabbar3.png",
+        "selectedIconPath": "static/tabbar3_active.png",
+        "text": "开奖"
+      },
+      {
+        "pagePath": "pages/member/index",
+        "iconPath": "static/my.png",
+        "selectedIconPath": "static/my_active.png",
+        "text": "会员"
+      }
+    ]
+  },
+  "minPlatformVersion": 1070,
+  "name": "长盈",
+  "versionName": "1.0.0",
+  "versionCode": "100",
+  "package": "长盈",
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom",
+    "home-header": "/colorui/components/home-header",
+    "mescroll-body": "/components/mescroll-uni/mescroll-body",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni"
+  }
+}

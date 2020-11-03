@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "隐私政策协议",
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom"
+  }
+}

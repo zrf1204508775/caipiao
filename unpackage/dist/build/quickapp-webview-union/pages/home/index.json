@@ -1,0 +1,12 @@
+{
+  "usingComponents": {
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "u-line-progress": "/uview-ui/components/u-line-progress/u-line-progress",
+    "u-swiper": "/uview-ui/components/u-swiper/u-swiper",
+    "mescroll-body": "/components/mescroll-uni/mescroll-body",
+    "menus": "/pages/home/menu",
+    "swipers": "/pages/home/swiper",
+    "class-names": "/pages/home/className",
+    "mescroll-mixin": "/components/mescroll-uni/mescroll-mixins"
+  }
+}

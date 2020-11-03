@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore",
+    "u-empty": "/uview-ui/components/u-empty/u-empty",
+    "cu-custom": "/colorui/components/cu-custom"
+  }
+}

@@ -1,0 +1,152 @@
+{
+	"pages": [
+		{
+			"path": "pages/home/index"
+		},
+		{
+			"path": "pages/home/wager/index"
+		},
+		{
+			"path": "pages/home/policy/agreement",
+			"style": {
+				"navigationBarTitleText": "隐私政策协议"
+			}
+		},
+		{
+			"path": "pages/home/policy/service_agreement",
+			"style": {
+				"navigationBarTitleText": "用户协议"
+			}
+		},
+		{
+			"path": "pages/partner/index"
+			/* "style": {
+				"enablePullDownRefresh": true,
+				"pullToRefresh": {
+					"support": true,
+					"color": "#57b3fe", //小圈圈的颜色
+					"style": "circle" //小圈圈的样式
+				}
+			} */
+		},
+		{
+			"path": "pages/partner/partner_detail"
+		},
+		{
+			"path": "pages/prize/index",
+			"style": {
+				/* "enablePullDownRefresh": true,
+				"pullToRefresh": {
+					"support": true,
+					"color": "#57b3fe", //小圈圈的颜色
+					"style": "circle" //小圈圈的样式
+				} */
+			}
+		},
+		{
+			"path": "pages/prize/history"
+		},
+		{
+			"path": "pages/member/index"
+		},
+		{
+			"path": "pages/member/point_signin"
+		},
+		{
+			"path": "pages/member/betinfo/index"
+		},
+		{
+			"path": "pages/member/betinfo/betinfoDetail"
+		},
+		{
+			"path": "pages/member/bill/index"
+		},
+		{
+			"path": "pages/member/recharge/index"
+		},
+		{
+			"path": "pages/member/recharge/wy"
+		},
+		{
+			"path": "pages/member/tkefu/index"
+		},
+		{
+			"path": "pages/member/set/index"
+		},
+		{
+			"path": "pages/member/set/FQA"
+		},
+		{
+			"path": "pages/member/set/privacy"
+		},
+		{
+			"path": "pages/member/user_info/index"
+		},
+		{
+			"path": "pages/member/bank/index"
+		},
+		{
+			"path": "pages/member/bank/drawing"
+		},
+		{
+			"path": "pages/member/setPw/index"
+		},
+		{
+			"path": "pages/member/setPw/playPW"
+		},
+		{
+			"path": "pages/member/setPw/modify_password"
+		},
+		{
+			"path": "pages/member/public/register"
+		},
+		{
+			"path": "pages/member/public/forgot"
+		},
+		{
+			"path": "pages/member/public/login"
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "长盈",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle": "custom"
+	},
+	"tabBar":{
+		"color": "#b7b7b7",
+		"selectedColor": "#f97321",
+		"borderStyle": "black",
+		"backgroundColor": "#fafafa",
+		"list":[
+			{
+				"pagePath": "pages/home/index",
+				"iconPath": "static/tabbar1.png",
+				"selectedIconPath": "static/tabbar1_active.png",
+				"text": "购彩"
+			},
+			{
+				"pagePath": "pages/partner/index",
+				"iconPath": "static/tabbar2.png",
+				"selectedIconPath": "static/tabbar2_active.png",
+				"text": "合买"
+			},
+			{
+				"pagePath": "pages/prize/index",
+				"iconPath": "static/tabbar3.png",
+				"selectedIconPath": "static/tabbar3_active.png",
+				"text": "开奖"
+			},
+			{
+				"pagePath": "pages/member/index",
+				"iconPath": "static/my.png",
+				"selectedIconPath": "static/my_active.png",
+				"text": "会员"
+			}
+		]
+	},
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	}
+}

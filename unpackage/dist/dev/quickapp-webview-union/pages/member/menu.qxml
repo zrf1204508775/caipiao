@@ -1,0 +1,1 @@
+<view><view class="cate-section margin-lr-sl"><block qa:for="{{navs}}" qa:for-item="item" qa:for-index="index" qa:key="index"><view data-event-opts="{{[['tap',[['purchase',['$0'],[[['navs','',index]]]]]]]}}" class="cate-item" bindtap="__e"><image src="{{item.src}}"></image><text class="margin-top-sm block">{{item.title}}</text></view></block></view></view>

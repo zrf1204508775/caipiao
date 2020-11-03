@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "u-line-progress": "/uview-ui/components/u-line-progress/u-line-progress",
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "cu-custom": "/colorui/components/cu-custom",
+    "mescroll-body": "/components/mescroll-uni/mescroll-body",
+    "menus": "/pages/member/menu",
+    "list-cell": "/components/list-cell",
+    "mescroll-mixin": "/components/mescroll-uni/mescroll-mixins"
+  }
+}

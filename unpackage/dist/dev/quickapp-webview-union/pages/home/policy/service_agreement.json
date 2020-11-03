@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "用户协议",
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom"
+  }
+}
